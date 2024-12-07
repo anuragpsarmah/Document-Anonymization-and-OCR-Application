@@ -93,7 +93,8 @@ The Document Anonymizer addresses this critical challenge by providing a user-fr
 
 #### Full Workflow Demonstration
 
-https://github.com/user-attachments/assets/615a8558-c857-45f6-ab14-7cb86d93b669
+https://github.com/user-attachments/assets/2c94e414-cf68-4f50-88f7-8d4892c9e7f7
+
 *Click the image above to watch the full demo video*
 
 ## Tech Stack 💻

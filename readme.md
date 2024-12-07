@@ -15,19 +15,17 @@ The Document Anonymizer addresses this critical challenge by providing a user-fr
   - Passport
   - PAN Card
   - Aadhaar Card
-  - Other government-issued identification documents
 
 ### 2. Advanced Anonymization Techniques
 
 - Uses multiple layered anonymization approaches:
   - Machine Learning-based anonymization
   - Regex-based pattern matching
-  - Advanced blurring techniques
 - Detects and masks:
   - Personal identification numbers
   - Dates of birth
   - Place of birth/residence
-  - Other sensitive textual information
+  - Images
 
 ### 3. User-Friendly Interface
 
@@ -35,7 +33,6 @@ The Document Anonymizer addresses this critical challenge by providing a user-fr
 - Preview of original and anonymized documents
 - One-click document download
 - Support for pre-loaded sample documents
-- Dark and light mode support
 
 ### 4. Cross-Platform Compatibility
 
@@ -54,8 +51,7 @@ The Document Anonymizer addresses this critical challenge by providing a user-fr
 
 2. **Machine Learning Anonymization**
 
-   - Eden AI API performs initial anonymization
-   - Removes basic recognizable personal information
+   - Human faces in the document are blurred using maching learning model
 
 3. **Advanced OCR Processing**
 
@@ -88,8 +84,6 @@ The Document Anonymizer addresses this critical challenge by providing a user-fr
 - **Image Processing**:
   - OpenCV (cv2)
   - Pytesseract
-- **API Integration**:
-  - Eden AI Anonymization API
 - **Additional Libraries**:
   - NumPy
   - Requests
@@ -105,15 +99,6 @@ The Document Anonymizer addresses this critical challenge by providing a user-fr
   - Framer Motion (animations)
 - **HTTP Client**: Axios
 - **Icons**: Lucide React
-
-### Deployment
-
-- **Backend**: Flask development server
-- **Frontend**: React development server
-- **Potential Production Deployment**:
-  - Backend: Gunicorn/uWSGI
-  - Frontend: Vercel/Netlify
-  - Containerization: Docker
 
 ## Prerequisites 🛠️
 
@@ -131,7 +116,7 @@ The Document Anonymizer addresses this critical challenge by providing a user-fr
 
 ### Frontend
 
-- Node.js 14+
+- Node.js 20+
 - npm/yarn
 - React 17+
 
@@ -154,10 +139,10 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Set Tesseract OCR path in script
-# Modify pytesseract.pytesseract.tesseract_cmd in server.py
+# Modify pytesseract.pytesseract.tesseract_cmd in index.py
 
 # Run the server
-python server.py
+python index.py
 ```
 
 ### Frontend Setup
@@ -178,31 +163,3 @@ npm start
 - No personal documents are stored server-side
 - Temporary file processing
 - CORS configured for controlled access
-- Uses secure API for initial anonymization
-
-## Limitations ⚠️
-
-- Accuracy depends on document quality
-- Not 100% foolproof anonymization
-- Limited to specific document types
-- Requires good quality, clear document scans
-
-## Future Roadmap 🗺️
-
-- Support more document types
-- Improve OCR accuracy
-- Add user authentication
-- Create mobile app version
-- Implement more advanced ML models
-
-## Contributing 🤝
-
-Contributions are welcome! Please read our contributing guidelines before submitting pull requests.
-
-## License 📄
-
-[Specify your license here]
-
-## Contact 📧
-
-[Your contact information]

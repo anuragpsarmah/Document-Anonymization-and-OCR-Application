@@ -74,6 +74,27 @@ The Document Anonymizer addresses this critical challenge by providing a user-fr
    - Processed image returned to frontend
    - Side-by-side comparison of original and anonymized documents
    - Option to download anonymized document
+  
+## Demo and Visuals 🖼️📹
+
+### Screenshot Gallery 📸
+
+#### User Interface
+![Screenshot 2024-12-07 164621](https://github.com/user-attachments/assets/92c807e4-67fa-4be5-98f2-9520c918387c)
+![Screenshot 2024-12-07 165146](https://github.com/user-attachments/assets/b5182a26-5882-4448-a17d-9834cd4625bf)
+*Intuitive drag-and-drop document upload interface*
+
+#### Anonymization Process
+![Screenshot 2024-12-07 164607](https://github.com/user-attachments/assets/2e2e8f13-b9ad-48da-82a6-141464bb1ea3)
+![Screenshot 2024-12-07 164729](https://github.com/user-attachments/assets/2ab59c85-b0d6-4721-818b-9754bb37d115)
+*Side-by-side comparison of original and anonymized document*
+
+### Demo Video 🎥
+
+#### Full Workflow Demonstration
+
+https://github.com/user-attachments/assets/615a8558-c857-45f6-ab14-7cb86d93b669
+*Click the image above to watch the full demo video*
 
 ## Tech Stack 💻
 

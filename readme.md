@@ -148,7 +148,7 @@ https://github.com/user-attachments/assets/2c94e414-cf68-4f50-88f7-8d4892c9e7f7
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/anuragpsarmah/Document-Anonymization-and-OCR-Application.git
 
 # Navigate to backend directory
 cd backend

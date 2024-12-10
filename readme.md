@@ -160,7 +160,10 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Set Tesseract OCR path in script
+# Add the EDEN AI API key in a .env file
+EDEN_AI_API_KEY=
+
+# Set Tesseract OCR path in script. This might be different for Windows and Mac
 # Modify pytesseract.pytesseract.tesseract_cmd in index.py
 
 # Run the server
